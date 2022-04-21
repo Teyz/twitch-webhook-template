@@ -1,7 +1,6 @@
 {
-  "name": "spin-and-go-back-ts",
+  "name": "twitch-webhook-template",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/app.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
@@ -10,8 +9,13 @@
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "twitch",
+    "template",
+    "webhook",
+    "typescript"
+  ],
+  "author": "Bastien 'Teyz' Rigaud",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.1",
@@ -26,5 +30,14 @@
   "dependencies": {
     "crypto": "^1.0.1",
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teyz/twitch-webhook-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Teyz/twitch-webhook-template/issues"
+  },
+  "homepage": "https://github.com/Teyz/twitch-webhook-template#readme",
+  "description": ""
 }
